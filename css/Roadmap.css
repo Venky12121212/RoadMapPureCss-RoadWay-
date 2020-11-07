@@ -1,0 +1,354 @@
+.pad_null {
+    padding: 0px;
+}
+
+.pad_left_null {
+    padding: 0px;
+}
+
+.pad_five {
+    padding: 0px 5px;
+}
+
+#main_roadMap_section .road_section_part {
+    position: relative;
+    top: 100px;
+}
+
+.start_flag_image_class {
+    position: relative;
+    top: -28px;
+    left: -18px;
+}
+
+#main_roadMap_section .horizontal_lines {
+    height: 35px;
+    background: #aaaaaa;
+}
+
+#main_roadMap_section .lines_class {
+    /* position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    top: -21px;
+    border-bottom: 2px dashed #fff;
+    height: 40px;
+}
+
+#main_roadMap_section .second_comon_section .lines_class {
+    top: -20px;
+}
+
+#main_roadMap_section .third_comon_section .lines_class {
+    top: -22px;
+}
+
+#main_roadMap_section .info_icon_class {
+    height: 62px;
+    width: 40px;
+    font-size: 85px;
+    text-align: center;
+    position: relative;
+    left: 13px;
+    top: -38px;
+    z-index: 999;
+}
+
+#main_roadMap_section .info_icon_class.inProgress {
+    color: #3c73be;
+}
+
+/* first_half_circleCSS */
+
+#main_roadMap_section #first_half_circle_section_id .half-circle {
+    width: 100px;
+    height: 200px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border: 35px solid #aaaaaa;
+    border-left: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#main_roadMap_section #first_half_circle_section_id .halfCircleBorder {
+    width: 93px;
+    height: 168px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border: 2px dashed #fff;
+    border-left: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    top: -18px;
+    left: -9px;
+}
+
+/* second_half_circleCSS */
+
+#main_roadMap_section #second_half_circle_section_id .half-circle {
+    width: 100px;
+    height: 200px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    border: 35px solid #aaaaaa;
+    border-right: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    left: 13%;
+}
+
+#main_roadMap_section #second_half_circle_section_id .halfCircleBorder {
+    width: 84px;
+    height: 165px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    border: 2px dashed #fff;
+    border-right: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    top: -17px;
+    left: -18px;
+}
+
+#main_roadMap_section .second_comon_section {
+    /* position: relative; */
+    top: -35px;
+}
+
+#main_roadMap_section .third_comon_section {
+    top: -70px;
+}
+
+#main_roadMap_section .additional_plans_separator {
+    display: flex;
+    justify-content: space-around;
+    top: -34px;
+    border-bottom: none;
+    height: 40px;
+}
+
+#main_roadMap_section .second_section .additional_plans_separator {
+    flex-direction: row-reverse;
+}
+
+#main_roadMap_section .third_plans_separator_cup {
+    top: -14px;
+    text-align: center;
+    position: relative;
+}
+
+#main_roadMap_section .winning_image {
+    position: absolute;
+    top: -25px;
+    right: 0;
+    width: 75px;
+}
+
+#main_roadMap_section .status {
+    top: -35px;
+    position: relative;
+    text-align: center;
+}
+
+#main_roadMap_section .weeks_data_body {
+    height: 400px;
+    overflow-y: auto;
+    padding: 0px;
+}
+
+#main_roadMap_section .date_class {
+    position: relative;
+    bottom: 24px;
+    left: 5px;
+    color: #000;
+}
+
+#main_roadMap_section .image_week_text {
+    position: relative;
+    top: -92px;
+    left: 27px;
+    font-size: 10px;
+    font-weight: bold;
+    width: 20px;
+    text-align: center;
+}
+
+#main_roadMap_section .two_digit_week_texts {
+    left: 18px;
+}
+
+#main_roadMap_section .each_week_Data.Due {
+    color: #ff7900;
+}
+
+#main_roadMap_section .each_week_Data.InProgress {
+    color: #3c73be;
+}
+
+#main_roadMap_section .each_week_Data.OverDue {
+    color: #fe6061;
+}
+
+#main_roadMap_section .each_week_Data.Completed {
+    color: #037d0d;
+}
+#main_roadMap_section .each_week_Data.Registered,  #main_roadMap_section .each_week_Data.Assigned{
+    color: #ef5941;
+}
+
+@media(min-width:600px) and (max-width: 900px) {
+    #main_roadMap_section #second_half_circle_section_id .half-circle {
+        left: -40%;
+    }
+}
+
+@media(min-width:901px) and (max-width: 1200px) {
+    #main_roadMap_section #second_half_circle_section_id .half-circle {
+        left: -20%;
+    }
+}
+
+@media(min-width:1367px) and (max-width: 1440px) {
+    #main_roadMap_section #second_half_circle_section_id .half-circle {
+        left: 6%;
+    }
+}
+
+@media(min-width:1441px) and (max-width: 1540px) {
+    #main_roadMap_section #second_half_circle_section_id .half-circle {
+        left: 11%;
+    }
+}
+
+@media(min-width:1541px) and (max-width: 1680px) {
+    #main_roadMap_section #second_half_circle_section_id .half-circle {
+        left: 22%;
+    }
+}
+
+@media(min-width:1681px) and (max-width: 1740px) {
+    #main_roadMap_section #second_half_circle_section_id .half-circle {
+        left: 20%;
+    }
+}
+
+@media(min-width:1741px) and (max-width: 1820px) {
+    #main_roadMap_section #second_half_circle_section_id .half-circle {
+        left: 25%;
+    }
+}
+
+@media(min-width:1821px) and (max-width: 1900px) {
+    #main_roadMap_section #second_half_circle_section_id .half-circle {
+        left: 30%;
+    }
+}
+
+@media(min-width:1901px) {
+    #main_roadMap_section #second_half_circle_section_id .half-circle {
+        left: 36%;
+    }
+}
+
+#main_roadMap_section .shadow_image {
+    position: relative;
+    top: -28px;
+    left: -25px;
+}
+
+/* //modalcss */
+
+#main_roadMap_section .modal-backdrop {
+    opacity: 0;
+}
+
+#main_roadMap_section .body_row_info {
+    border-bottom: 1px solid #ebebeb;
+    padding-top: 5px;
+}
+
+#main_roadMap_section .weekDetailDataModal .modal-content {
+    border-radius: 0px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.modal-header .close {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 22px;
+}
+
+#main_roadMap_section .modal-header {
+    padding: 6px 6px;
+    border-bottom: 0px;
+}
+
+#main_roadMap_section .modal-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.act_div{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.noData {
+    text-align: center;
+}
+
+/* latestChanghes */
+
+#main_roadMap_section .body_row_info .Due{
+    color: #ff7900;
+    font-weight: bold;
+}
+#main_roadMap_section .body_row_info .InProgress {
+    color: #3c73be;
+    font-weight: bold;
+}
+#main_roadMap_section .body_row_info .OverDue {
+    color: #fe6061;
+    font-weight: bold;
+}
+#main_roadMap_section .body_row_info .Completed {
+    color: #037d0d;
+    font-weight: bold;
+}
+
+#main_roadMap_section .body_row_info .Assigned {
+    color: #037d0d;
+    font-weight: bold;
+}
+.body_row_info:last-child{
+    border-bottom: 0px !important;
+}
+
+/* badges */
+
+.panel .panel-heading, .panel .panel-heading p, .panel .panel-heading span, .panel .panel-heading h3, .panel .panel-heading h4 {
+    font-size: 22px;
+    font-weight: bold !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #142247;
+    margin: 0px;
+}
+
+.panel-body {
+    border-top: 0px;
+    background-color: #ffffff;
+    overflow: auto;
+    margin: 0px !important;
+}
